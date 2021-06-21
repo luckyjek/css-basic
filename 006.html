@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        /* hover라는 기능은 css 즉, style에서만 쓰인다. */
+        a:hover {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* 누르는 순간! */
+        a:active {
+            color: green;
+            font-weight: bold;
+        }
+
+        /* 가상 클래스 first-child <- 첫번째 (몇개가있던 상관없이) */
+        ul>li:first-child {
+            background-color: green;
+        }
+
+        /* 가상 클래스 last-child <- 마지막 (몇개가있던 상관없이) */
+        ul>li:last-child {
+            background-color: yellow;
+        }
+
+        /* 가상 클래스 nth-child <- 내가 원하는 몇 번째 요소를 찾는다  */
+        ul>li:nth-child(3) {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/link">링크</a>
+    <br>
+    <ul>
+        <li>첫번째 요소</li>
+        <li>두번째 요소</li>
+        <li>세번째 요소</li>
+        <li>네번째 요소</li>
+    </ul>
+</body>
+
+</html>

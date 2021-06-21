@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* th에있는 아이들을 모두 찾아라 라는 의미! */
+    /* #table1 tr>th:nth-child(1) {
+      background-color: hotpink;
+    } */
+
+    #table1 th {
+      background-color: (255, 2rgb37, 134);
+    }
+
+    #table2 th {
+      background-color: (255, 2rgb37, 134);
+    }
+
+    #sc {
+      height: 100px;
+    }
+
+    .first {
+      background-color: greenyellow;
+    }
+
+    .second {
+      background-color: greenyellow;
+    }
+
+    table {
+      width: 600px;
+
+    }
+
+    table,
+    tr,
+    td,
+    th {
+      border: 1px solid green;
+      border-collapse: collapse;
+
+    }
+
+    table>tr {
+      margin: 80px;
+    }
+
+    h1,
+    h3 {
+      margin: 20px;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- div를 줘서 , 가운데 정렬할때 아래와 같이 사용한다. -->
+  <div style="width: 700px; margin: 10px auto;">
+    <h1>교육 훈련 일지</h1>
+    <table id="table1">
+      <tr>
+        <th class="first">과정명</th>
+        <td>블록체인 비즈니스 모델 개발</td>
+        <td rowspan="3"></td>
+        <th class="first">강사</th>
+        <th class="first">담당</th>
+      </tr>
+      <tr>
+        <th class="first">교육장소</th>
+        <td>월드메르디앙 비즈센터 4층 405호</td>
+        <td colspan="2"></td>
+
+
+      </tr>
+      <tr>
+        <th class="first">강사명</th>
+        <td>고승원</td>
+        <td colspan="2"></td>
+      </tr>
+    </table>
+
+    <h3>2021 06월 21일 월요일</h3>
+    <table id="table2">
+      <tr>
+        <th class="first">교시</th>
+        <th class="first">시간</th>
+        <th class="first">교육내용</th>
+      </tr>
+      <tr>
+        <td>1교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <td>2교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <td>3교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <td>4교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <td>5교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <td>6교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <td>7교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <td>8교시</td>
+        <td>09:00~10:00</td>
+        <td>HTML 시멘틱 요소, HTML 최종정리</td>
+      </tr>
+      <tr>
+        <th colspan="2" class="first" id="sc">일과 후 과제사항</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th colspan="2" class="first" id="sc">특이사항<br>
+          (교육성 및 운영진 요청사항)</th>
+        <th></th>
+      </tr>
+    </table>
+  </div>
+</body>
+
+
+</html>

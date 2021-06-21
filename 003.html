@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*       
+        앞에있는 선택자 깊이가 관계없는 모든 ul태그를 찾아서 적용하라!   
+        section ul {
+            border: 1px dotted black;
+            font-size: 14pt;
+             background-color: blue; 
+        } */
+
+
+
+        /* section안에 바로 자식 ul태그를 적용하라는의미! 
+        (자식의 자식이 아닌! 바로 그 다음의 자식태그!) */
+        section>ul {
+            border: 1px dotted black;
+            font-size: 14pt;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- DOM트리구조!   -->
+    <section id="sec01">
+        <p>P</p>
+        <ul>
+            <li>
+                <ul>
+                    <li>A</li>
+                    <li>B</li>
+
+                </ul>
+            </li>
+            <li>C</li>
+        </ul>
+    </section>
+</body>
+
+</html>
