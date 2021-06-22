@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EunKyung resume</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin-top: 0%;
+        }
+
+        .bar0 {
+            font-family: "Sofia", sans-serif;
+            font-size: 40px;
+        }
+
+        /*  body에 있어서 max-width: 900px;
+                          max-height: 1000px; 전체가 다 딱! 적용되지는않는다.*/
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .side {
+            flex: 30%;
+            background-color: rgb(201, 201, 201);
+            padding: 20px;
+            width: 300px;
+            height: 1000px;
+        }
+
+        .main {
+            flex: 70%;
+            background-color: rgb(238, 238, 238);
+            padding: 20px;
+            width: 300px;
+            height: 1000px;
+        }
+
+        .bar1 {
+            text-align: right;
+        }
+
+        .abs {
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 65px;
+        }
+
+        .abs2 {
+            position: absolute;
+            margin-top: 220px;
+            margin-left: 23px;
+
+        }
+
+        .line {
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 50px;
+        }
+
+
+        .abs3 {
+            position: absolute;
+            margin-top: 300px;
+            margin-left: 25px;
+        }
+
+        .line2 {
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 15px;
+        }
+
+        .inter {
+            margin-top: 200px;
+        }
+
+        .hobbys {
+            display: flex;
+            margin: 40px;
+            text-align: center;
+        }
+
+        .hobby {
+            padding: 30px;
+            font-size: 30px;
+            color: crimson;
+        }
+
+        .hobbyName {
+            font-size: 10px;
+        }
+
+        .skills {
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- position  -->
+
+    <div class="row" style="position: relative;">
+        <div style="position: absolute; left:120px; top:40px;z-index: 9999;">
+            <div class="bar0">Hello! </div>
+            <div class="bar0">EunKyung Resume</div>
+        </div>
+        <!-- 왼쪽블럭  -->
+        <div class="side" style="padding:0%">
+            <div class="abs"><strong>E D U C A T I O N</strong></div>
+            <div class="abs2"><strong>Bachelor of Creative Arts</strong><br>
+                <h5>University of tianjin /China <h5><br>
+            </div>
+            <div class="abs3"><strong>Bachelor of Creative Arts</strong><br>
+                <h5>University of tianjin /China <h5><br>
+            </div>
+            <div class="skills">
+                <div class="skill"><strong>S K I L L S</strong></div>
+            </div>
+
+            <!-- <div class="hr1"> -->
+            <hr class="line" width="140px" size="1" />
+            <!-- </div> -->
+
+            <image src="pink.jpg" width="100%" height="100%" ;></image>
+        </div>
+        <!-- 오른쪽블럭  -->
+        <div class="main">
+            <div class="img1">
+                <div class="bar1">Street Name City, State</div>
+                <div class="bar1">tel: 01025799829</div>
+                <div class="bar1">email: thxjek@gmail.com</div>
+            </div>
+            <div class="text1" style="margin-top: 20%;">
+                <div class="work1"><strong>P R O F I L E</strong></div><br>
+                <div class="work1">
+                    <h5>WORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK
+                        WORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK
+                        WORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCE
+                        WORK EXPERIENCEWORK
+                    </h5>
+                </div>
+            </div>
+            <div class="text2">
+                <div class="work1"><strong>W O R K E X P E R I E N C E</strong></div>
+                <h5>WORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK
+                    WORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK
+                    WORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCEWORK EXPERIENCE
+                    WORK EXPERIENCEWORK
+                </h5>
+                <ul>
+                    <li>北京工作</li>
+                    <li>北京工作</li>
+                    <li>北京工作</li>
+                </ul>
+            </div>
+            <div>
+                <div class="inter"><strong>I N T E R E S T S</strong></div>
+            </div>
+            <div>
+                <hr class="line2" width="450px" size="1" />
+            </div>
+            <div class="hobbys">
+                <div class="hobby"><i class="fas fa-book"></i>
+                    <div class="hobbyName">book</div>
+                </div>
+                <div class="hobby"><i class="fas fa-mountain"></i>
+                    <div class="hobbyName">mounain</div>
+                </div>
+                <div class="hobby"><i class="fas fa-users"></i>
+                    <div class="hobbyName">communication</div>
+                </div>
+                <div class="hobby"><i class="fas fa-laptop-code"></i>
+                    <div class="hobbyName">codding</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
